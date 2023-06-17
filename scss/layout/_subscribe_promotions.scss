@@ -1,0 +1,127 @@
+#subscribe_promotions {
+    height: 481px;
+    background-color: #f9f9f9;
+    .wrapper {
+        display: flex;
+        align-items: flex-start;
+        gap: 88px;
+        margin-top: 22px;
+    }
+    .message {
+        padding: 0;
+        margin: 0;
+        margin-top: 55px;
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-self: center;
+    }
+    .promotions {
+        h1 {
+            padding: 0;
+            margin: 0;
+            padding-top: 40px;
+            font-family: "SF Pro Bold";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 57px;
+            color: #100e0e;
+            margin-bottom: 8px;
+        }
+        .promotions_text {
+            padding: 0;
+            margin: 0;
+            margin-bottom: 25px;
+            padding-top: 8px;
+            font-family: "SF Pro Regular";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 29px;
+        }
+        .active_div {
+            padding: 0;
+            margin: 0;
+            width: 486px;
+            height: 196px;
+            background: linear-gradient(90.34deg, #f7355d 0.3%, #9747ff 101.33%);
+            border-radius: 16px;
+        }
+        .sales {
+            
+        }
+        .sales_h3 {
+            padding: 0;
+            margin: 0;
+            padding-top: 16px;
+            padding-left: 40px;
+            font-family: "SF Pro Bold";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 48px;
+            color: #ffffff;
+        }
+        .active_p {
+            margin-top: 10px;
+            padding-left: 40px;
+        
+            font-family: "SF Pro Medium";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 24px;
+            color: #ffffff;
+        }
+        .input_div {
+            margin-top:10px;
+            display: flex;
+            column-gap: 16px;
+            align-items: center;
+            margin-bottom: 32px;
+        }
+        .input {
+            margin-top: 16px;
+            margin-left: 32px;
+            width: 246px;
+            height: 56px;
+            background: #ffffff;
+            border: 1px solid #dbdbdb;
+            border-radius: 8px;
+            padding: 24px;
+            color: #878787;
+            font-family: "SF Pro Regular";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 29px;
+        }
+        .sub_button {
+            margin-top: 16px;
+            border: none;
+            justify-content: center;
+            align-items: center;
+            padding: 0px;
+            gap: 8px;
+            background: #e7e7e7;
+            border-radius: 8px;
+            width: 160px;
+            height: 56px;
+            &:hover{
+                .sub_p{
+                    color: white;
+                }
+                background-color:#9747FF;
+            }
+        }
+        .sub_p {
+            font-family: "SF Pro Medium";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            color: #585656;
+        }
+    }
+}

@@ -1,0 +1,376 @@
+//<<<<< HEADER SECTION STARTED >>>>>
+
+header {
+    background-color: white;
+    z-index: 999;
+    width: 100%;
+    position: fixed;
+    top: 0;
+
+    .wrapper1 {
+        display: none;
+        align-items: center;
+        justify-content: space-between;
+        &__left {
+            display: flex;
+            align-items: center;
+            gap: 34px;
+            &--input {
+                width: 224px;
+                height: 24px;
+                background: #ffffff;
+                border: 1px solid #b7b7b7;
+                border-radius: 8px;
+                display: flex;
+                align-items: center;
+                padding: 10px 0px;
+                gap: 8px;
+                input {
+                    border: none;
+                    outline: none;
+                }
+            }
+        }
+
+        &__right{
+            display: flex;
+            align-items: center;
+            gap: 40px;
+
+            &--txt{
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
+
+    .wrapperm{
+        display: none;
+        align-items: center;
+        justify-content: space-between;
+
+        &__items{
+        
+            display: flex;
+            align-items: center;
+            gap: 40px;
+        }
+    }
+    // <<<<< FIRST NAVBAR STARTED >>>>>
+    .navbar1 {
+        display: flex;
+        background-color: #e9e9e9;
+
+        .wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 51px;
+
+            .wrapper_left {
+                display: flex;
+                align-items: center;
+                gap: 5px;
+
+                p {
+                    font-family: "SF Pro Regular";
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #100e0e;
+                }
+                .text {
+                    font-family: "SF Pro Regular";
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #0071e4;
+                    text-decoration: none;
+                }
+
+                .number {
+                    font-family: "SF Pro Regular";
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 24px;
+                }
+            }
+
+            .wrapper_right {
+                display: flex;
+                gap: 8px;
+            }
+        }
+    }
+    // <<<<< FIRST NAVBAR ENDED >>>>>
+
+    // <<<<< SECOND NAVBAR STARTED >>>>>
+
+    .navbar2 {
+        .wrapper {
+            display: flex;
+            align-items: center;
+            margin-top: 20px;
+            gap: 10px;
+            height: 94px;
+
+            .wrapper_right {
+                display: flex;
+                align-items: center;
+                gap: 24px;
+
+                .nav_list {
+                    display: flex;
+                    align-items: center;
+                    gap: 18px;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 21px;
+                    margin-left: 50px;
+                    font-family: "SF Pro Regular";
+
+                    .nav_list-item {
+                        display: flex;
+
+                        .nav_list-item--link {
+                            text-decoration: none;
+                            color: black;
+                            &:hover {
+                                text-decoration: underline;
+                                color: #0071e4;
+                            }
+                        }
+                    }
+
+                    .nav_list-item--fire {
+                        display: flex;
+                        background-color: #fdefbf;
+                        border-radius: 5px;
+                        gap: 4px;
+                    }
+                    .nav_list-item--link-fire {
+                        text-decoration: none;
+                        color: black;
+                        &:hover {
+                            text-decoration: underline;
+                            color: #0071e4;
+                        }
+                    }
+                }
+            }
+        }
+        .wrapper_call {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-left: 70px;
+
+            .wrapper_cal {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding-top: 18px;
+            }
+
+            .number {
+                text-decoration: none;
+                color: black;
+
+                font-family: "SF Pro Regular";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 24px;
+            }
+        }
+        .text {
+            text-decoration: none;
+            padding-left: 20px;
+
+            font-family: "SF Pro Regular";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+
+            color: #0071e4;
+        }
+    }
+
+    // <<<<< SECOND NAVBAR ENDED >>>>>
+
+    // <<<<< THIRD NAVBAR STARTED >>>>>
+
+    .navbar3 {
+        .wrapper {
+            display: flex;
+            gap: 24px;
+            margin-top: 20px;
+
+            .catalog_btn {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 16px;
+                gap: 4px;
+                width: 215px;
+                height: 56px;
+                background: #0071e4;
+                border-radius: 16px;
+                border: none;
+                p {
+                    color: white;
+                }
+            }
+            .catalog_btn:hover {
+                background-color: #5035f7;
+            }
+
+            .wrapper_input {
+                width: 594px;
+                height: 56px;
+                background: #ffffff;
+                border: 1px solid #b7b7b7;
+                border-radius: 8px;
+                display: flex;
+                align-items: center;
+                padding-left: 24px;
+                gap: 8px;
+                input {
+                    border: none;
+                    outline: none;
+                }
+            }
+
+            .basket {
+                display: flex;
+
+                justify-content: center;
+                align-items: center;
+                padding: 0px 16px;
+                gap: 8px;
+                border: none;
+                margin-left: 42px;
+                width: 215px;
+                height: 56px;
+                background: #52d116;
+                border-radius: 16px;
+                p {
+                    color: #ffffff;
+                }
+
+                .number {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 4px 12px;
+                    gap: 8px;
+                    color: #ffffff;
+                    width: 34px;
+                    height: 32px;
+
+                    background: #46c609;
+                    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+                    border-radius: 32px;
+                }
+            }
+            .basket:hover {
+                .number {
+                    color: white;
+                    background-color: gray;
+                }
+                .text_basket {
+                    color: gray;
+                }
+                background-color: #f6f6f6;
+            }
+        }
+    }
+
+    // <<<<< THIRD NAVBAR ENDED >>>>>
+
+    // <<<<< FOURTH NAVBAR STARTED >>>>>
+
+    .navbar4 {
+        .wrapper {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            height: 80px;
+            justify-content: space-between;
+            .left {
+                gap: 36px;
+                display: flex;
+                div {
+                    display: flex;
+                    cursor: pointer;
+                    align-items: center;
+                    gap: 11px;
+                    svg:hover {
+                        path {
+                            color: #0071e4;
+                        }
+                    }
+                    p {
+                        font-family: "SF Pro Regular";
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 20px;
+                        line-height: 24px;
+                        color: #100e0e;
+                        &:hover {
+                            color: #0071e4;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width:768px){
+    header{
+
+            .navbar1{
+                .wrapper1{display: flex;}
+
+                .wrapper{display: none;}
+            }
+
+           
+            .navbar2 {display: none;}
+    
+            .navbar3 {display: none;}
+    
+            .navbar4 {display: none;}
+
+    
+    }
+}
+
+@media only screen and (max-width:320px){
+    header{
+
+        .navbar1{
+            .wrapper1{display: none;}
+
+            .wrapperm{display: flex;}
+            .wrapper{display: none;}
+        }
+
+       
+        .navbar2 {display: none;}
+
+        .navbar3 {display: none;}
+
+        .navbar4 {display: none;}
+
+
+}
+}

@@ -1,0 +1,67 @@
+#new_model2{
+    height: 352px;
+    background-color: white;
+    .new_text {
+       
+        align-items: center;
+        h2 {
+            font-family: "SF Pro Bold";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 38px;
+            color: #100e0e;
+            margin-top: 32px;
+            margin-bottom: 22px;
+        }.new_p{
+            
+                font-family: "SF Pro Regular";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+                color: #585656;
+            
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .wrapper {
+        display: flex;
+        align-items: center;
+
+        .new_text {
+            h2 {
+                width: 687px;
+                height: 38px;
+
+                margin-left: 30px;
+                font-family: "SF Pro Bold";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 32px;
+                line-height: 38px;
+
+                /* 1 */
+
+                color: #100e0e;
+            }
+            .new_p {
+                width: 720px;
+                height: 247px;
+                margin-left: 30px;
+
+                font-family: "SF Pro Display";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+
+                /* 07 */
+
+                color: #585656;
+            }
+        }
+    }
+}

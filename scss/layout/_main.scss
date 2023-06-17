@@ -1,0 +1,243 @@
+#first_section {
+    background: #d0eafc;
+    margin-top: 325px;
+    // margin-left: 0px;
+    height: 480px;
+
+    .wrapper {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 48px;
+
+        .arrow {
+            left: -30px;
+            position: absolute;
+            opacity: 0.5;
+        }
+        &__cnt {
+            display: flex;
+            align-items: center;
+            gap: 48px;
+            .photo {
+                margin-top: 99px;
+            }
+
+            .photo1 {
+                display: none;
+            }
+
+            .price {
+                display: flex;
+                align-items: center;
+                padding-bottom: 50px;
+                p {
+                    font-family: "SF Pro Regular";
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 32px;
+                    line-height: 38px;
+
+                    color: #1e3240;
+                }
+                h2 {
+                    font-family: "SF Pro Regular";
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 48px;
+                    line-height: 57px;
+
+                    color: #1e3240;
+                }
+            }
+            .more_info {
+                width: 160px;
+                height: 56px;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                padding: 0px;
+                border: none;
+                gap: 8px;
+                background: #0071e4;
+                border-radius: 8px;
+                p {
+                    font-family: "SF Pro Medium";
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #ffffff;
+                }
+            }
+            .more_info:hover {
+                background-color: #2a93fd;
+            }
+        }
+        .arrow2 {
+            position: absolute;
+            right: -50px;
+            opacity: 0.5;
+        }
+    }
+}
+
+.under_wrap {
+    display: flex;
+    align-items: center;
+    height: 115px;
+    justify-content: center;
+    width: 100%;
+    background: white;
+    margin-top: 50px;
+    h2 {
+        font-family: "SF Pro Medium";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 57px;
+
+        /* 1 */
+
+        color: #100e0e;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #first_section {
+        width: 768px;
+        height: 680px;
+        .wrapper {
+            margin-top: -290px;
+
+            &__cnt {
+                display: block;
+                text-align: center;
+
+                .text {
+                    margin-bottom: 31px;
+                    .price {
+                        text-align: center;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                    p {
+                        width: 32px;
+                        height: 38px;
+                        font-family: "SF Pro Regular";
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 32px;
+                        line-height: 38px;
+                        color: #1e3240;
+                    }
+                    h2 {
+                        width: 212px;
+                        height: 57px;
+                        font-family: "SF Pro Display";
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 48px;
+                        line-height: 57px;
+                        color: #1e3240;
+                    }
+
+                    a {
+                        width: 160px;
+                        height: 56px;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+                        padding: 0px;
+                        border: none;
+                        gap: 8px;
+                        color: #ffffff;
+                        text-decoration: none;
+                        background: #0071e4;
+                        border-radius: 8px;
+                        margin-left: 140px;
+                    }
+                }
+                .photo1 {
+                    display: flex;
+                }
+                .photo {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #first_section {
+        width: 320px;
+        height: 420px;
+        .wrapper {
+            &__cnt {
+                .photo1 {
+                    width: 173px;
+                    height: 207px;
+                    position: relative;
+                    left: 50px;
+                    top: -50px;
+                }
+                .text {
+                    img {
+                        width: 220px;
+                        height: 65px;
+                    }
+
+                    .price {
+                        display: flex;
+
+                        p {
+                            width: 20px;
+                            height: 24px;
+                            font-family: "SF Pro Regular";
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 22px;
+                            line-height: 24px;
+                            color: #1e3240;
+                            padding-left: 40px;
+                        }
+                        h2 {
+                            width: 212px;
+                            height: 57px;
+
+                            font-family: "SF Pro Regular";
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 32px;
+                            line-height: 57px;
+                            color: #1e3240;
+                        }
+                    }
+
+                    .more_info {
+                        position: relative;
+                        left: -60px;
+                        top: -45px;
+                    }
+                }
+            }
+        }
+        .under_wrap {
+            h2 {
+                width: 257px;
+                height: 29px;
+                font-family: "SF Pro Medium";
+                font-style: normal;
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 29px;
+                color: #100e0e;
+            }
+        }
+    }
+}

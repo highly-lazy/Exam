@@ -1,0 +1,187 @@
+#card_two{
+    margin-bottom: 165px;
+
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        margin-top: px;
+        h3 {
+            font-family: "SF Pro Medium";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 29px;
+            color: #0071e4;
+            padding-bottom: 24px;
+        }
+        .card_wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 24px;
+            .card {
+                padding: 16px 16px 24px 16px;
+                width: 282px;
+                height: 611px;
+                background: #ffffff;
+                box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
+                border-radius: 16px;
+                &:hover{
+                    box-shadow: 0 0 15px;
+                }
+                .head {
+                    justify-content: space-between;
+                    display: flex;
+                    align-items: center;
+                    .stars {
+                        align-items: center;
+                        display: flex;
+                        column-gap: 2px;
+                        p {
+                            margin-left: 6px;
+                            font-family: "SF Pro Medium";
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 16px;
+                            line-height: 19px;
+                            color: #0071e4;
+                        }
+                        .heart_circle {
+                            gap: 8px;
+                        }
+                    }
+                }
+                .texth2 {
+                    font-family: "SF Pro Medium";
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 24px;
+                    line-height: 29px;
+                    text-align: center;
+                    color: #100e0e;
+                    margin-top: 16px;
+                    margin-bottom: 9px;
+                }
+                .main {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .main2 {
+                    display: flex;
+                    align-items: center;
+                    gap: 5px;
+                    margin-top: 16px;
+                    margin-bottom: 12px;
+                    .circle {
+                        width: 16px;
+                        height: 16px;
+                        border-radius: 50%;
+                        background-color: #52d116;
+                    }
+                    .p_texts {
+                        display: flex;
+                        gap: 14px;
+                        align-items: center;
+                        font-family: "SF Pro Medium";
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 19px;
+                        color: #706e6e;
+                    }
+                }
+                .main3 {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    .ptxt {
+                        font-family: "SF Pro Regular";
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 20px;
+                        line-height: 24px;
+                        color: #878787;
+                        text-decoration-line: line-through;
+                    }
+                    p {
+                        font-family: "SF Pro Medium";
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 32px;
+                        line-height: 38px;
+                        color: #100e0e;
+                    }
+                }
+                .btn {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 8px;
+                    width: 266px;
+                    height: 56px;
+                    left: 8px;
+                    top: 504px;
+                    background: #0071e4;
+                    border-radius: 8px;
+                    border: none;
+                    margin-top: 16px;
+                    margin-bottom: 8px;
+                    margin-left: -8px;
+                    p {
+                        font-family: "SF Pro Medium";
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 18px;
+                        line-height: 21px;
+                        color: #ffffff;
+                    } 
+                    &:hover{
+                        background-color: #52d116;
+                    }
+                }
+                .foot {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    .blue {
+                        font-family: "SF Pro Medium";
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 19px;
+                        color: #0071e4;
+                        &:hover{
+                            text-decoration: underline;
+                            color: #878787;
+                        }
+                    }
+                    p {
+                        font-family: "SF Pro Medium";
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 19px;
+                        color: #706e6e;
+                        &:hover{
+                            text-decoration: underline;
+                            color: #0071e4;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 768px) {
+    #card_two {
+        position: relative;
+        left: 60px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #card_two{
+        position: relative;
+        left: 0px;
+    }
+}
